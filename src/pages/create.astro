@@ -1,7 +1,9 @@
 ---
-import Layout from '../layouts/Layout.astro'
+import Layout from '@/layouts/Layout.astro'
+import Keyboard from '@/components/solid/Keyboard'
 ---
 
 <Layout>
-  <h1>Create</h1>
+  <h1 class="text-3xl font-light">Create</h1>
+  <Keyboard client:visible />
 </Layout>
